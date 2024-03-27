@@ -1,0 +1,308 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings"],
+      "responses": ["Hello! Welcome to our dental advisory service. How can I assist you today?", "Hi there! How can I help you with your dental health?", "Good day! What dental concerns do you have?", "Greetings! How can I support you in maintaining your dental hygiene?"],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_swahili",
+      "patterns": ["Habari", "Uko aje", "Je, kuna mtu yeyote?", "Habari tena", "Siku njema"],
+    "responses": ["Hujambo", "asante kwa kutembelea", "Vizuri kukuona tena", "Karibu Tena", "ninawezaje kusaidia?"],
+    "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+      "responses": ["Goodbye! Take care of your teeth!", "Bye! Remember to brush and floss regularly!", "See you later! Keep smiling!", "Take care! Remember, your smile is your best accessory!"],
+      "context_set": ""
+    },
+    {
+      
+      "tag": "goodbyes_swahili",
+      "patterns": ["Kwaheri", "Tutaonana baadaye"],
+      "responses": ["Tuonane baadaye, asante kwa kutembelea", "Kuwa na siku nzuri", "Kwaheri! Rudi tena hivi karibuni."]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": ["I'm not sure", "I don't know", "Can you repeat?", "Please rephrase"],
+      "responses": ["Sorry, I'm not sure I understand. Could you please provide more details?", "I'm not sure what you mean. Can you provide more information?", "I'm sorry, could you please rephrase that?"],
+      "context": [""]
+    },
+    {
+      "tag": "dental_care",
+      "patterns": [ "dental care","How do I take care of my teeth?", "What's the best way to brush my teeth?", "Why is dental care important?", "Can you give me some dental care tips?", "Tell me about dental hygiene practices"],
+      "responses": ["Proper dental care includes brushing your teeth at least twice a day, flossing daily, eating a balanced diet, and visiting your dentist regularly for check-ups and cleanings. It's important for preventing cavities, gum disease, and maintaining overall health."],
+      "context_set": ""
+    },
+    {
+      "tag": "brushing_technique",
+      "patterns": [ "brush", "How should I brush my teeth?", "What is the correct brushing technique?", "How long should I brush my teeth for?", "Give me tips for brushing teeth effectively"],
+      "responses": ["Use a soft-bristled toothbrush and fluoride toothpaste. Brush in gentle circular motions, ensuring to clean all surfaces of your teeth and gums. Aim to brush for at least two minutes each time."],
+      "context_set": ""
+    },
+    {
+      "tag": "flossing_technique",
+      "patterns": ["floss", "How do I floss my teeth?", "What's the proper way to floss?", "How often should I floss?", "Teach me the right flossing technique"],
+      "responses": ["Take about 18 inches of dental floss and wind most of it around one of your middle fingers. Hold the floss tightly between your thumbs and forefingers and gently guide it between your teeth using a back-and-forth motion. Curve the floss into a 'C' shape against the side of each tooth and gently slide it under the gumline. Floss once a day, preferably before brushing."],
+      "context_set": ""
+    },
+    {
+      "tag": "dental_checkup",
+      "patterns": ["checkup", "How often should I visit the dentist?", "Why are regular dental check-ups important?", "What happens during a dental check-up?", "What's the purpose of dental check-ups?", "Tell me about dental examinations"],
+      "responses": ["It's recommended to visit your dentist every six months for a routine dental check-up and cleaning. Regular check-ups help prevent dental problems, detect issues early, and maintain good oral health. During a check-up, your dentist will examine your teeth and gums, clean your teeth, and discuss any concerns or treatment options."],
+      "context_set": ""
+    },
+    {
+      "tag": "toothache",
+      "patterns": ["toothache", "I have a toothache", "What should I do for a toothache?", "How can I relieve toothache pain?", "Help me with toothache relief", "I need advice for managing toothache"],
+      "responses": ["For temporary relief, rinse your mouth with warm saltwater, use over-the-counter pain medication, and apply a cold compress to the outside of your cheek. However, it's important to see your dentist as soon as possible to determine the cause of the toothache and receive appropriate treatment."],
+      "context_set": ""
+    },
+    {
+      "tag": "dental_emergency",
+      "patterns": ["emergency", "I have a dental emergency", "What constitutes a dental emergency?", "Where can I find emergency dental care?", "Help with dental emergencies", "Guide me during a dental emergency"],
+      "responses": ["Dental emergencies include severe toothache, knocked-out teeth, broken or chipped teeth, and injuries to the mouth or jaw. If you have a dental emergency, contact your dentist immediately. If it's after hours, go to the nearest emergency room or urgent care center for assistance."],
+      "context_set": ""
+    },
+    {
+      "tag": "whitening_teeth",
+      "patterns": ["How can I whiten my teeth?", "What are some teeth whitening options?", "Are there natural ways to whiten teeth?", "Give me tips for teeth whitening", "Help me with teeth whitening techniques"],
+      "responses": ["Teeth whitening options include professional treatments performed by dentists, over-the-counter whitening products like whitening toothpaste or strips, and natural remedies like baking soda or activated charcoal. However, it's essential to consult with your dentist before starting any whitening treatment to ensure it's safe and effective for your teeth."],
+      "context_set": ""
+    },
+    {
+      "tag": "children_dental_care",
+      "patterns": ["children", "How do I take care of my child's teeth?", "When should I start taking my child to the dentist?", "What foods are best for children's dental health?", "Tell me about pediatric dental care", "Help me with child dental hygiene"],
+      "responses": ["Start caring for your child's teeth even before they erupt by gently wiping their gums with a clean, damp cloth after feeding. Schedule your child's first dental visit by their first birthday or when their first tooth appears. Offer healthy foods like fruits, vegetables, cheese, and milk, and limit sugary snacks and drinks to protect their teeth."],
+      "context_set": ""
+    },
+    {
+      "tag": "dentures",
+      "patterns": ["dentures","How do I care for dentures?", "Can I eat with dentures?", "What are the types of dentures?", "Help me with denture maintenance", "Teach me about denture care"],
+      "responses": ["Dentures are removable dental prosthetics used to replace missing teeth and restore oral function. There are two main types of dentures: full dentures, which replace all teeth in the upper or lower jaw, and partial dentures, which replace several missing teeth. Proper denture care includes cleaning them daily, soaking them overnight, and visiting your dentist regularly for adjustments. It may take some time to adjust to wearing dentures, but with patience and practice, you'll soon feel comfortable and confident with your new smile.To care for dentures, remove them nightly for cleaning, brush them with a soft-bristled toothbrush and mild soap, and soak them in denture cleaner or water overnight. Avoid using hot water or abrasive cleaners, and handle them carefully to prevent damage. With proper care, dentures can restore your ability to eat and speak comfortably."],
+      "context_set": ""
+    },
+    {
+      "tag": "oral_hygiene_tips",
+      "patterns": ["oral hygiene", "Can you give me some oral hygiene tips?", "How can I improve my oral hygiene?", "Give me advice for maintaining oral health"],
+      "responses": ["Sure! Here are some oral hygiene tips: brush your teeth at least twice a day, floss daily, limit sugary snacks and drinks, use fluoride toothpaste, and visit your dentist regularly for check-ups and cleanings."]
+    },
+    {
+      "tag": "cavity_prevention",
+      "patterns": ["cavity", "How can I prevent cavities?", "What are some cavity prevention tips?", "Tell me about cavity prevention techniques"],
+      "responses": ["A cavity, sometimes called dental caries or tooth decay, is a frequent dental issue that results in a hole in the tooth due to demineralization and structural deterioration of the tooth. Bacterial acids that break down the tooth's enamel and dentin layers are usually the cause of cavities.", "To prevent cavities, brush your teeth at least twice a day with fluoride toothpaste, floss daily, limit sugary and acidic foods, drink plenty of water, and visit your dentist for regular check-ups."]
+    },
+    {
+      "tag": "gum_disease_symptoms",
+      "patterns": ["What are the symptoms of gum disease?", "How can I recognize gum disease?", "Tell me about signs of gum disease"],
+      "responses": ["Common symptoms of gum disease include red, swollen, or bleeding gums, persistent bad breath, receding gums, loose teeth, and changes in the way your teeth fit together when you bite."]
+    },
+    {
+      "tag": "tooth_decay_causes",
+      "patterns": ["decay", "What causes tooth decay?", "How does tooth decay develop?", "Tell me about the factors contributing to tooth decay"],
+      "responses": ["Tooth decay occurs when plaque, a sticky film of bacteria, builds up on teeth and produces acids that erode tooth enamel. Factors contributing to tooth decay include poor oral hygiene, sugary and acidic foods, frequent snacking, and lack of fluoride."]
+    },
+    {
+      "tag": "halitosis_management",
+      "patterns": ["bad breath", "How can I manage bad breath?", "What causes bad breath and how to treat it?", "Tell me about remedies for bad breath"],
+      "responses": ["To manage bad breath, practice good oral hygiene, including brushing your teeth, tongue, and gums, flossing daily, using mouthwash, staying hydrated, and avoiding tobacco and strong-smelling foods."]
+    },
+    {
+      "tag": "orthodontic_options",
+      "patterns": ["What are my options for orthodontic treatment?", "Tell me about different types of braces", "What orthodontic treatments are available?"],
+      "responses": ["Orthodontic options include traditional braces, clear aligners like Invisalign, lingual braces placed behind the teeth, and ceramic braces that blend in with your teeth. Each option has its benefits and considerations, so consult with an orthodontist to determine the best treatment for you."]
+    },
+    {
+      "tag": "dental_implants",
+      "patterns": ["implants", "What are dental implants?", "How do dental implants work?", "Tell me about the benefits of dental implants"],
+      "responses": ["Dental implants are artificial tooth roots made of titanium that are surgically placed into the jawbone to support replacement teeth. They look, feel, and function like natural teeth, provide stability for chewing and speaking, and can improve overall oral health."]
+    },
+  
+    {
+      "tag": "dentures",
+      "patterns": ["dentures", "How do I care for dentures?", "Can I eat with dentures?", "What are the types of dentures?", "Help me with denture maintenance", "Teach me about denture care"],
+      "responses": ["To care for dentures, remove them nightly for cleaning, brush them with a soft-bristled toothbrush and mild soap, and soak them in denture cleaner or water overnight. Avoid using hot water or abrasive cleaners, and handle them carefully to prevent damage. With proper care, dentures can restore your ability to eat and speak comfortably."],
+      "context_set": ""
+    },
+    {
+      "tag": "oral_hygiene_products",
+      "patterns": ["toothpaste", "What toothpaste should I use?", "Are electric toothbrushes better?", "Do I need mouthwash?", "Recommend oral hygiene products", "Suggest dental care products"],
+      "responses": ["Choose a fluoride toothpaste that's approved by dental associations. Electric toothbrushes can be more effective for some people, but manual toothbrushes are also suitable when used correctly. Mouthwash can complement your oral hygiene routine by freshening breath and reducing bacteria, but it's not a substitute for brushing and flossing."],
+      "context_set": ""
+    },
+    {
+      "tag": "orthodontic_care",
+      "patterns": ["braces","How do braces work?", "How long do I need to wear braces?", "What are the alternatives to traditional braces?", "Tell me about orthodontic treatment", "Help with orthodontic concerns"],
+      "responses": ["Braces work by applying continuous pressure to move teeth into the desired position over time. Treatment duration varies depending on individual needs but typically ranges from one to three years. Alternatives to traditional braces include clear aligners like Invisalign and lingual braces that are placed on the back of the teeth."],
+      "context_set": ""
+    },
+    {
+      "tag": "diet_and_dental_health",
+      "patterns": ["diet", "How does diet affect dental health?", "What foods are bad for teeth?", "What should I eat for healthy teeth?", "Tell me about the relationship between diet and oral health", "Help me with dietary advice for dental health"],
+      "responses": ["Diet plays a significant role in dental health. Limit sugary and acidic foods and drinks that can contribute to tooth decay and erosion. Instead, focus on a balanced diet rich in fruits, vegetables, lean proteins, and dairy products, which provide essential nutrients for strong teeth and gums."],
+      "context_set": ""
+    },
+    {
+      "tag": "smoking_and_oral_health",
+      "patterns": ["smoking", "How does smoking affect oral health?", "What are the risks of smoking for teeth and gums?", "Can smoking cause dental problems?", "Tell me about the impact of smoking on oral hygiene", "Help me understand smoking-related dental issues"],
+      "responses": ["Smoking is harmful to oral health and can lead to numerous dental problems, including gum disease, tooth discoloration, bad breath, and increased risk of oral cancer. Quitting smoking is one of the best things you can do to improve your oral health and overall well-being."],
+      "context_set": ""
+    },
+    {
+      "tag": "gum_disease",
+      "patterns": ["gum disease","What is gum disease?", "How do I prevent gum disease?", "What are the symptoms of gum disease?", "Tell me about periodontal health", "Help me with gum disease prevention"],
+      "responses": ["Gum disease, also known as periodontal disease, is an infection of the gums caused by bacteria in plaque. It can lead to gum inflammation, bleeding, receding gums, and tooth loss if left untreated. Prevent gum disease by practicing good oral hygiene, including brushing, flossing, and regular dental check-ups."],
+      "context_set": ""
+    },
+    {
+      "tag": "oral_cancer",
+      "patterns": ["oral cancer", "What is oral cancer?", "What are the risk factors for oral cancer?", "What are the symptoms of oral cancer?", "How is oral cancer diagnosed and treated?", "Tell me about oral cancer prevention"],
+      "responses": ["Oral cancer is a type of cancer that affects the mouth, lips, tongue, throat, and salivary glands. Risk factors include tobacco use, excessive alcohol consumption, HPV infection, and sun exposure. Symptoms may include persistent mouth sores, lumps, or patches, difficulty chewing or swallowing, and changes in voice. Early detection and treatment are crucial for improving outcomes. Prevention measures include avoiding tobacco and alcohol, practicing good oral hygiene, and getting regular dental check-ups."],
+      "context_set": ""
+    },
+    {
+      "tag": "senior_dental_care",
+      "patterns": ["senior", "aging", "old", "How does aging affect dental health?", "What dental issues are common in seniors?", "How can seniors maintain oral health?", "Tell me about dental care for seniors", "Help me with dental care as I age"],
+      "responses": ["Aging can bring changes to oral health, such as dry mouth, gum disease, tooth decay, and tooth loss. Seniors may also experience medical conditions or take medications that affect oral health. To maintain oral health as you age, brush and floss regularly, visit your dentist for check-ups, eat a balanced diet, and avoid tobacco and excessive alcohol consumption. Your dentist can provide personalized advice and treatment to address your specific needs."],
+      "context_set": ""
+    },
+    {
+      "tag":"Root_Canal_Treatment ",
+      "patterns":["root canal", "What is a root canal", "Signs you need a root canal", "Root canal procedure explained"],
+      "responses":["A root canal is a dental procedure to remove infected or damaged tissue from the inside of a tooth. Common signs that you may need a root canal include severe tooth pain, sensitivity to hot or cold, swelling or tenderness in the gums, and darkening of the tooth. During the procedure, the infected tissue is removed, and the tooth is cleaned and sealed to prevent further infection."],
+      "context_set":""
+    },
+    {
+      "tag":"Dental_Filling",
+      "patterns":["filling","What is a dental filling procedure", "Explain dental filling", "How does a filling work?"],
+      "responses":["A dental filling is a common procedure to repair a cavity in your tooth. It involves removing the decayed part of the tooth and filling the cavity with a material like composite resin or amalgam. It helps restore the tooth's function and prevent further decay."],
+      "context_set":""
+    },
+    {
+      "tag":"Wisdom_Teeth_Extraction",
+      "patterns":["wisdom teeth","Wisdom teeth removal", "Wisdom teeth pain relief", "Recovery after wisdom teeth extraction"],
+      "responses":["Wisdom teeth, also known as third molars, may need to be removed if they are impacted, causing pain or other dental problems. The extraction procedure is typically performed under local anesthesia to ensure your comfort. Recovery may involve swelling and discomfort, which can be managed with pain medication and ice packs. It's important to follow your dentist's post-operative instructions for a smooth recovery."],
+      "context_set":""
+    },
+    {
+      "tag":"Dental_Technology",
+      "patterns":["dental technology", "Latest dental technology", "Digital dentistry innovations", "High-tech dental treatments"],
+      "responses":["Advances in dental technology have revolutionized dental care, allowing for more accurate diagnoses, efficient treatments, and improved patient experiences. Some examples of dental technology include digital radiography, intraoral scanners, laser dentistry, and 3D printing. These technologies enable dentists to provide higher quality care and achieve better outcomes for their patients. If you're interested in learning more about the latest dental technologies available at our clinic, I recommend scheduling a consultation with one of our dentists."],
+      "context_set":""
+    },
+    {
+      "tag":"Thank_You_intent ",
+      "patterns":["Thanks", "Thank you", "Appreciate it", "Grateful"],
+      "responses":["You're welcome! If you have any more questions or need further assistance, feel free to ask."],
+      "context_set":""
+    },
+    {
+      
+      "tag": "thanks_in_swahili",
+      "patterns": ["Asante", "Asante sana", "Hiyo itakuwa ya usaidizi"],
+      "responses": ["Furaha kusaidia!", "Wakati wowote!", "Furaha yangu"]
+    },
+    {
+      "tag": "hours_swahili",
+      "patterns": ["Umefungua saa ngapi?", "Saa zako ni zipi?", "Unafungua lini?"],
+      "responses": ["Tunafungua kila siku kuanzia saa tatu asubuhi adi saa tatu usiku", "Saa zetu ni 9am-9pm kila siku"]
+    },
+    {
+      "tag": "payments_swahili",
+      "patterns": ["Je, unachukua kadi za mkopo?", "Je, unakubali Mastercard?", "Je, una pesa taslimu pekee?"],
+      "responses": ["Tunakubali VISA, Mastercard na AMEX", "Tunakubali kadi kuu za mkopo"]
+    },
+    {
+      "tag": "opentoday_swahili",
+      "patterns": ["Je, unafungua leo?", "Unafungua lini leo?", "Saa zako ni nini leo?"],
+      "responses": ["Tunafua kila siku kuanzia 9am-9pm", "Saa zetu ni 9am-9pm kila siku"]
+    },
+    {
+      "tag": "dentalServices_swahili",
+      "patterns": ["Niambie kuhusu huduma zako za meno", "Unatoa matibabu gani?", "Huduma zinapatikana"],
+      "responses": ["Huduma zetu za meno zinahusu usafishaji, kujaza, mifereji ya mizizi, daktari wa meno ya vipodozi, na zaidi. Tunawezaje kukusaidia haswa?"]
+    },
+    {
+      "tag": "scheduleAppointment_swahili",
+      "patterns": ["Ninawezaje kupanga miadi?", "Hifadhi ziara ya meno", "Upatikanaji wa uteuzi"],
+      "responses": ["Ili kupanga miadi, unaweza kutembelea tovuti yetu au kupiga simu ofisini kwetu. Ni tarehe na wakati gani unaokufaa zaidi?"]
+    },
+    {
+      "tag": "oralCareTips_swahili",
+      "patterns": ["Je, unaweza kutoa vidokezo vya huduma ya mdomo?", "Nipe ushauri wa meno", "Vidokezo vya kudumisha afya ya kinywa"],
+      "responses": ["Hakika! Kwa kupiga mswaki kwa ufanisi, tumia mswaki wenye bristle laini, brashi kwa dakika mbili, na usisahau kusafisha ulimi wako."]
+    },
+    {
+      "tag": "identifyCavity_swahili",
+      "patterns": ["Ninajuaje ikiwa nina cavity?", "Ishara za cavity", "Kugundua kuoza kwa meno"],
+      "responses": ["Ishara za kawaida za cavity ni pamoja na unyeti wa jino, maumivu, na mashimo yanayoonekana. Ukipitia haya, ni muhimu kuonana na daktari wa meno."]
+    },
+    {
+      "tag": "effectiveBrushing_swahili",
+      "patterns": ["Jinsi ya kupiga mswaki kwa ufanisi?", "Mbinu sahihi ya kupiga mswaki", "Vidokezo vya kupiga"],
+      "responses": ["Hakikisha unapiga mswaki nyuso zote za meno yako, unatumia miondoko ya upole ya duara, na usisahau kupiga mswaki ulimi wako kwa utunzaji wa kina wa mdomo."]
+    },
+    {
+      "tag": "flossingTips_swahili",
+      "patterns": ["Vidokezo vya kunyoosha kwa ufanisi", "Jinsi ya kupiga vizuri?", "Mbinu za maua"],
+      "responses": ["Tumia mwendo mpole wa kurudi na kurudi, ukitengeneza umbo la 'C' kuzunguka kila jino. Kuwa kamili na uzi angalau mara moja kwa siku kwa usafi bora wa mdomo."]
+    },
+    {
+      "tag": "gumCare_swahili",
+      "patterns": ["Jinsi ya kutunza ufizi?", "Vidokezo vya afya ya fizi", "Kuzuia masuala ya fizi"],
+      "responses": ["Ili kudumisha ufizi wenye afya, piga mswaki kwa upole kando ya ufizi, porojo kila siku, na kuhudhuria uchunguzi wa mara kwa mara wa meno kwa ajili ya utunzaji wa kitaalamu wa fizi."]
+    },
+    {
+      "tag": "preventiveDentistry_swahili",
+      "patterns": ["Faida za kutunza meno", "Utunzaji wa kuzuia mdomo", "Kwa nini kuzuia ni muhimu?"],
+      "responses": ["Udaktari wa meno husaidia kuzuia maswala ya meno. Uchunguzi wa mara kwa mara, usafishaji, na usafi mzuri wa kinywa huchangia afya ya kinywa ya muda mrefu."]
+    },
+    {
+      "tag": "cosmeticDentistry_swahili",
+      "patterns": ["Niambie kuhusu daktari wa meno ya vipodozi(cosmetic dentistry)", "Taratibu za meno ya vipodozi", "Fanya tabasamu langu"],
+      "responses": ["Uganga wa meno wa vipodozi unajumuisha taratibu kama vile kung'arisha meno, veneers, na vipandikizi vya meno. Wacha tujadili mapendeleo na chaguzi zako."]
+    },
+    {
+      "tag": "oralSurgery_swahili",
+      "patterns": ["Unafanya upasuaji gani wa mdomo?", "Taarifa za upasuaji wa mdomo", "Taratibu za upasuaji"],
+      "responses": ["Tunafanya upasuaji mbalimbali wa mdomo, ikiwa ni pamoja na kung'oa jino la hekima na upasuaji wa taya. Ikiwa una wasiwasi maalum, jisikie huru kuuliza."]
+    },
+    {
+      "tag": "childrenDentistry_swahili",
+      "patterns": ["Je, unatoa huduma ya meno kwa watoto?", "Huduma za meno za watoto", "Huduma ya meno ya watoto"],
+      "responses": ["Ndiyo, tuna utaalam katika daktari wa meno ya watoto. Huduma zetu zinakidhi mahitaji ya kipekee ya meno ya watoto. Tunawezaje kusaidia afya ya kinywa ya mtoto wako?"]
+    },
+    {
+      "tag": "missingTooth_swahili",
+      "patterns": ["Nina chaguo gani kwa jino lililopotea?", "Badilisha jino lililokosekana", "Maelezo ya kupandikiza meno"],
+      "responses": ["Chaguo za jino lililokosekana ni pamoja na vipandikizi vya meno, madaraja na meno bandia. Tunaweza kujadili ni chaguo gani linakufaa zaidi."]
+    },
+    {
+      "tag": "dentalTechnology_swahili",
+      "patterns": ["Niambie kuhusu teknolojia yako ya meno", "Vifaa vya juu vya meno", "Teknolojia inayotumika katika matibabu"],
+      "responses": ["Tunatumia teknolojia ya kisasa ya meno, ikiwa ni pamoja na X-rays ya digital na daktari wa meno ya laser, kutoa matibabu sahihi na ya starehe."]
+    },
+    {
+      "tag": "orthodontics_swahili",
+      "patterns": ["Je, unatoa huduma za orthodontic?", "Matibabu ya Orthodontic", "Braces na Invisalign"],
+      "responses": ["Ndiyo, tunatoa huduma za orthodontic, kutoa braces ya jadi na Invisalign ili kusaidia kufikia tabasamu moja kwa moja na la afya."]
+    },
+    {
+      "tag": "seniorDentalCare_swahili",
+      "patterns": ["Huduma ya meno kwa wazee", "Huduma za meno zinazofaa zaidi", "Afya ya kinywa ya wazee"],
+      "responses": ["Tunatoa huduma maalum ya meno kwa wazee, kushughulikia mahitaji ya afya ya kinywa ya umri mahususi. Tunawezaje kukusaidia wewe au mpendwa wako?"]
+    },
+    {
+      "tag": "dentalAnxiety_swahili",
+      "patterns": ["Nina wasiwasi wa meno", "Kushughulika na hofu ya daktari wa meno", "Wasiwasi juu ya taratibu za meno"],
+      "responses": ["Tunaelewa wasiwasi wa meno. Timu yetu imefunzwa kutoa mazingira mazuri, na tunatoa chaguo kama vile matibabu ya meno ya kutuliza."]
+    },
+    {
+      "tag": "dentalEducation_swahili",
+      "patterns": ["Nieleze kuhusu afya ya kinywa", "Habari za afya ya meno", "Jifunze kuhusu kudumisha meno yenye afya"],
+      "responses": ["Hakika! Kudumisha afya njema ya kinywa kunahusisha kupiga mswaki mara kwa mara, kupiga flossing, lishe bora, na uchunguzi wa kawaida wa meno. Chochote maalum ungependa kujua?"]
+    }
+  ]
+}
